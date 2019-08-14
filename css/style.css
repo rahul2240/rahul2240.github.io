@@ -1,15 +1,4 @@
 /*----------------------------------------------------
-@File: Default Styles
-@Author: SPONDON IT
-
-This file contains the styling for the actual theme, this
-is the file you need to edit to change the look of the
-theme.
----------------------------------------------------- */
-/*=====================================================================
-@Template Name: HostHub Construction 
-@Developed By: Naim Lasker
-Author E-mail: naimlasker@gmail.com
 
 =====================================================================*/
 /*----------------------------------------------------*/
@@ -31,7 +20,8 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #777777;
-  background: url(../img/body-bg.png) no-repeat center; }
+  background: url(../img/body-bg.png) no-repeat center;
+  overflow-x: hidden;}
 
 h1,
 h2,
@@ -2914,7 +2904,7 @@ h6 {
     margin-bottom: 23px; }
 
   .header_area .navbar {
-    background: #000; }
+    background: white; }
 
   .navbar-toggler[aria-expanded="false"] span:nth-child(2) {
     opacity: 1; }
@@ -2936,7 +2926,7 @@ h6 {
     display: block;
     width: 25px;
     height: 3px;
-    background: #fff;
+    background: black;
     margin: auto;
     margin-bottom: 4px;
     transition: all 400ms linear;
@@ -2963,7 +2953,7 @@ h6 {
     display: block;
     border-bottom: 1px solid #ededed33;
     border-radius: 0px;
-    color: #fff; }
+    color: black; }
 
   .header_area .navbar .search {
     margin-left: 0px; }
@@ -2985,11 +2975,11 @@ h6 {
 
   .header_area.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
     line-height: 40px;
-    color: #fff; }
+    color: #222; }
 
   .header_area.white_menu.navbar_fixed .main_menu .navbar .nav .nav-item .nav-link {
     line-height: 40px;
-    color: #fff; }
+    color: #222; }
 
   .header_area.white_menu .navbar .nav .nav-item .nav-link {
     color: #222; }
@@ -3086,7 +3076,7 @@ h6 {
   .home_banner_area .banner_inner .banner_content {
     margin-top: 0px; }
     .home_banner_area .banner_inner .banner_content .primary_btn {
-      display: none; }
+ }
 
   /* Blog Page Area css
   ============================================================================================ */
